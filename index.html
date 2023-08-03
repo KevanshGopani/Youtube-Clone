@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500&family=Rubik:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="nav-ytButton">
+          <div class="icon">
+            <img src="./images/hamburger.png" alt="hamburger" />
+          </div>
+          <div class="logo">
+            <div class="yt-logo">
+              <img src="./images/yt-logo.png" alt="logo" />
+
+              <img src="./images/yt-name.png" alt="youtube" />
+            </div>
+          </div>
+        </div>
+        <div class="nav-ytSearch">
+          <div class="search-icon">
+            <input
+              type="text"
+              oninput="getValue()"
+              placeholder="Search"
+              class="search-box text"
+            />
+
+            <div class="search-btn">
+              <div class="btn">
+                <div class="btn-in">
+                  <img src="./images/search.png" alt="search" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-voice">
+            <img src="./images/mic.png" alt="mic" />
+          </div>
+        </div>
+        <div class="nav-profile">
+          <div class="prof-video">
+            <img src="./images/Create.png" alt="Create" />
+          </div>
+          <div class="prof-apps">
+            <img src="./images/Apps.png" alt="apps" />
+          </div>
+          <div class="prof-notification">
+            <img src="./images/Notifications.png" alt="Notifications" />
+          </div>
+          <div class="profile">
+            <img src="./images/profile.png" alt="profile" />
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex">
+        <div class="sidebar">
+          <div class="top">
+            <div class="t-home">
+              <div class="thome same" style="align-items: center">
+                <img src="./images/home-fill.png" alt="logo" />
+                <p>
+                  <span style="font-weight: 700">Home</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="t-explore">
+              <div class="texplore same">
+                <img src="./images/explore.png" alt="logo" />
+                <p><span>Explore</span></p>
+              </div>
+            </div>
+
+            <div class="t-subscription">
+              <div class="tsubscription same">
+                <img src="./images/subscriptions.png" alt="logo" />
+                <p><span>Subscription</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="top-2">
+            <div class="tborder"></div>
+            <div class="top-2-menu">
+              <div class="library t2">
+                <img src="./images/library.png" alt="logo" />
+                <p class=""><span>Library</span></p>
+              </div>
+              <div class="history t2">
+                <img src="./images/history.png" alt="logo" />
+                <p class=""><span>History</span></p>
+              </div>
+              <div class="your-videos t2">
+                <img src="./images/yourVideos.png" alt="logo" />
+                <p class=""><span>Your Videos</span></p>
+              </div>
+              <div class="watch-later t2">
+                <img src="./images/watchLater.png" alt="logo" />
+                <p class=""><span>Watch Later</span></p>
+              </div>
+              <div class="like-video t2">
+                <img src="./images/liked.png" alt="logo" />
+                <p class=""><span>Liked Videos</span></p>
+              </div>
+              <div class="show-more t2">
+                <img src="./images/arrowBottom.png" alt="logo" />
+                <p class=""><span>Show More</span></p>
+              </div>
+            </div>
+            <div class="tborder"></div>
+          </div>
+          <div class="subscription">
+            <div class="sub">
+              <div class="sub-title">
+                <div class="sub-title2">
+                  <p class="text">SUBSCRIPTION</p>
+                </div>
+              </div>
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>James Gouse</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Alan Cooper</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Marcus Levin</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Alexis Sears</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Jesica Lambert</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Anna White</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Skylar Dias</span></p>
+              </div>
+
+              <div class="sub-menu">
+                <img src="./images/profile.png" alt="logo" />
+                <p><span>Show 13 more</span></p>
+              </div>
+            </div>
+            <div class="tborder"></div>
+          </div>
+          <div class="more-from">
+            <div class="form">
+              <div class="form-menu">
+                <div class="moreFromUtube">
+                  <p class="form-text">MORE FROM YOUTUBE</p>
+                </div>
+              </div>
+
+              <div class="form-menu-body">
+                <div class="menu-box">
+                  <img src="./images/yt-logo.png" alt="logo" />
+                  <p><span>Youtube Premium</span></p>
+                </div>
+              </div>
+
+              <div class="form-menu-body">
+                <div class="menu-box">
+                  <img src="./images/gaming.png" alt="logo" />
+                  <p><span>Gaming</span></p>
+                </div>
+              </div>
+
+              <div class="form-menu-body">
+                <div class="menu-box">
+                  <img src="./images/live.png" alt="logo" />
+                  <p><span>Live</span></p>
+                </div>
+              </div>
+
+              <div class="form-menu-body">
+                <div class="menu-box">
+                  <img src="./images/sports.png" alt="logo" />
+                  <p><span>Sports</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="tborder"></div>
+          </div>
+          <div class="bottom">
+            <div class="bottom-menu">
+              <div class="inner-menu">
+                <img src="./images/settings.png" alt="logo" />
+                <p><span>Setting</span></p>
+              </div>
+            </div>
+
+            <div class="bottom-menu">
+              <div class="inner-menu">
+                <img src="./images/report.png" alt="logo" />
+                <p><span>Report History</span></p>
+              </div>
+            </div>
+
+            <div class="bottom-menu">
+              <div class="inner-menu">
+                <img src="./images/help.png" alt="logo" />
+                <p><span>Help</span></p>
+              </div>
+            </div>
+
+            <div class="bottom-menu">
+              <div class="inner-menu">
+                <img src="./images/feedback.png" alt="logo" />
+                <p><span>Send Feedback</span></p>
+              </div>
+            </div>
+
+            <div class="tborder"></div>
+          </div>
+          <div class="footer">
+            <div class="f1">
+              <p class="p1"><span>About</span></p>
+              <p class="p2"><span>Press</span></p>
+              <p class="p3"><span>Contact us</span></p>
+              <p class="p4"><span>Creators</span></p>
+              <p class="p5"><span>Advertise</span></p>
+              <p class="p6"><span>Developers</span></p>
+            </div>
+
+            <div class="tborder"></div>
+          </div>
+        </div>
+        <div>
+          <div class="top-menu">
+            <div class="border"></div>
+            <div class="topmenu">
+              <div class="filters">
+                <p class="filter-options active"><span>All</span></p>
+                <p class="filter-options"><span>CSS</span></p>
+                <p class="filter-options"><span>Developer</span></p>
+                <p class="filter-options"><span>Songs</span></p>
+                <p class="filter-options"><span>Entertainment</span></p>
+                <p class="filter-options"><span>Marvel</span></p>
+                <p class="filter-options"><span>Javascript</span></p>
+                <p class="filter-options">
+                  <span>AI</span>
+                </p>
+                <p class="filter-options"><span>trending</span></p>
+                <p class="filter-options"><span>Sports</span></p>
+              </div>
+            </div>
+            <div class="border"></div>
+          </div>
+          <div class="thumbnail">
+            <div class="card"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
